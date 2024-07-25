@@ -1,0 +1,41 @@
+<odoo>
+    <record id="property_report" model="ir.actions.report">
+        <field name="name">Property Report</field>
+        <field name="model">model.a</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="binding_model_id" ref="model_model_a"/>
+        <field name="binding_type" >report</field>
+        <field name="report_name">practice.property_report_template</field>
+    </record>
+    <template id="property_report_template">
+        <t t-call="web.html_container">
+            <t t-call="web.external_layout">
+                <h1 style="font-family:'EduAUVICWANTHand'">
+                    Property report
+                </h1>
+                   <div class="page">
+                       <table class="table">
+                                    <thead>
+                                         <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">First Name</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        <t t-set="counter" t-value="1"/>
+                                        <t t-foreach="docs" t-as="property">
+                                            <tr>
+                                            <td scope="row"><span t-out="counter"/></td>
+                                            <td><span t-field="property.name"/></td>
+                                            </tr>
+                                            <t t-set="counter" t-value="counter+1"/>
+                                        </t>
+
+                                    </tbody>
+
+                                </table>
+                            </div>
+            </t>
+        </t>
+    </template>
+</odoo>

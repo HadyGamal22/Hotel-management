@@ -1,0 +1,14 @@
+.prop table thead > tr > th {
+background-color:#7BD3EA !important;
+text-align:center !important;
+}
+.prop{
+text-align:center !important;
+
+}
+.prop table thead > tr >th:nth-child(2){
+width:280px !important;
+}
+.prop table thead > tr >th:nth-child(3){
+width:280px !important;
+}

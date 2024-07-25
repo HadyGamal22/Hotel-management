@@ -1,0 +1,637 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* practice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-23 04:04+0000\n"
+"PO-Revision-Date: 2024-07-23 04:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: practice
+#: model:ir.actions.server,name:practice.change_state
+msgid " change state  "
+msgstr ""
+
+#. module: practice
+#: model:ir.actions.server,name:practice.property_closed
+msgid " closed  "
+msgstr ""
+
+#. module: practice
+#: model:ir.actions.server,name:practice.check_selling_date_cron_ir_actions_server
+msgid " propert:check selling date "
+msgstr ""
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.property_form_view
+msgid "Action"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__message_needaction
+#: model:ir.model.fields,field_description:practice.field_model_a__message_needaction
+#: model:ir.model.fields,field_description:practice.field_property_history__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__active
+#: model:ir.model.fields,field_description:practice.field_model_a__active
+msgid "Active"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__activity_ids
+#: model:ir.model.fields,field_description:practice.field_model_a__activity_ids
+#: model:ir.model.fields,field_description:practice.field_property_history__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__activity_exception_decoration
+#: model:ir.model.fields,field_description:practice.field_model_a__activity_exception_decoration
+#: model:ir.model.fields,field_description:practice.field_property_history__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__activity_state
+#: model:ir.model.fields,field_description:practice.field_model_a__activity_state
+#: model:ir.model.fields,field_description:practice.field_property_history__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__activity_type_icon
+#: model:ir.model.fields,field_description:practice.field_model_a__activity_type_icon
+#: model:ir.model.fields,field_description:practice.field_property_history__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_owner__address
+msgid "Address"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__message_attachment_count
+#: model:ir.model.fields,field_description:practice.field_model_a__message_attachment_count
+#: model:ir.model.fields,field_description:practice.field_property_history__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: practice
+#: model:ir.ui.menu,name:practice.base_menu
+msgid "Base"
+msgstr ""
+
+#. module: practice
+#: model:ir.actions.act_window,name:practice.building_action
+#: model:ir.model,name:practice.model_building
+#: model:ir.ui.menu,name:practice.building
+msgid "Building"
+msgstr ""
+
+#. module: practice
+#: model:ir.actions.act_window,name:practice.change_state_action
+msgid "Change State"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields.selection,name:practice.selection__model_a__state__closed
+msgid "Closed"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__code
+msgid "Code"
+msgstr ""
+
+#. module: practice
+#: model:ir.model,name:practice.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__create_uid
+#: model:ir.model.fields,field_description:practice.field_change_state__create_uid
+#: model:ir.model.fields,field_description:practice.field_model_a__create_uid
+#: model:ir.model.fields,field_description:practice.field_owner__create_uid
+#: model:ir.model.fields,field_description:practice.field_property_history__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__create_date
+#: model:ir.model.fields,field_description:practice.field_change_state__create_date
+#: model:ir.model.fields,field_description:practice.field_model_a__create_date
+#: model:ir.model.fields,field_description:practice.field_owner__create_date
+#: model:ir.model.fields,field_description:practice.field_property_history__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__description
+#: model:ir.model.fields,field_description:practice.field_model_a__description
+msgid "Description"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_model_a__diff
+msgid "Diff"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__display_name
+#: model:ir.model.fields,field_description:practice.field_change_state__display_name
+#: model:ir.model.fields,field_description:practice.field_model_a__display_name
+#: model:ir.model.fields,field_description:practice.field_owner__display_name
+#: model:ir.model.fields,field_description:practice.field_property_history__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields.selection,name:practice.selection__change_state__state__draft
+#: model:ir.model.fields.selection,name:practice.selection__model_a__state__draft
+#: model_terms:ir.ui.view,arch_db:practice.property_form_view
+msgid "Draft"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_model_a__expected_price
+msgid "Expected Price"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_model_a__expected_selling_date
+msgid "Expected Selling Date"
+msgstr ""
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.property_report_template
+msgid "First Name"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__message_follower_ids
+#: model:ir.model.fields,field_description:practice.field_model_a__message_follower_ids
+#: model:ir.model.fields,field_description:practice.field_property_history__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__message_partner_ids
+#: model:ir.model.fields,field_description:practice.field_model_a__message_partner_ids
+#: model:ir.model.fields,field_description:practice.field_property_history__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,help:practice.field_building__activity_type_icon
+#: model:ir.model.fields,help:practice.field_model_a__activity_type_icon
+#: model:ir.model.fields,help:practice.field_property_history__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_model_a__garden
+msgid "Garden"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_model_a__garden_oreientation
+msgid "Garden Oreientation"
+msgstr ""
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.property_search_view
+msgid "Group garden"
+msgstr ""
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.owner_search_view
+#: model_terms:ir.ui.view,arch_db:practice.property_search_view
+msgid "Group name"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__has_message
+#: model:ir.model.fields,field_description:practice.field_model_a__has_message
+#: model:ir.model.fields,field_description:practice.field_property_history__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__id
+#: model:ir.model.fields,field_description:practice.field_change_state__id
+#: model:ir.model.fields,field_description:practice.field_model_a__id
+#: model:ir.model.fields,field_description:practice.field_owner__id
+#: model:ir.model.fields,field_description:practice.field_property_history__id
+msgid "ID"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__activity_exception_icon
+#: model:ir.model.fields,field_description:practice.field_model_a__activity_exception_icon
+#: model:ir.model.fields,field_description:practice.field_property_history__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,help:practice.field_building__activity_exception_icon
+#: model:ir.model.fields,help:practice.field_model_a__activity_exception_icon
+#: model:ir.model.fields,help:practice.field_property_history__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,help:practice.field_building__message_needaction
+#: model:ir.model.fields,help:practice.field_model_a__message_needaction
+#: model:ir.model.fields,help:practice.field_property_history__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,help:practice.field_building__message_has_error
+#: model:ir.model.fields,help:practice.field_building__message_has_sms_error
+#: model:ir.model.fields,help:practice.field_model_a__message_has_error
+#: model:ir.model.fields,help:practice.field_model_a__message_has_sms_error
+#: model:ir.model.fields,help:practice.field_property_history__message_has_error
+#: model:ir.model.fields,help:practice.field_property_history__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__message_is_follower
+#: model:ir.model.fields,field_description:practice.field_model_a__message_is_follower
+#: model:ir.model.fields,field_description:practice.field_property_history__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_model_a__is_late
+msgid "Is Late"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_model_a__last_name
+msgid "Last Name"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__write_uid
+#: model:ir.model.fields,field_description:practice.field_change_state__write_uid
+#: model:ir.model.fields,field_description:practice.field_model_a__write_uid
+#: model:ir.model.fields,field_description:practice.field_owner__write_uid
+#: model:ir.model.fields,field_description:practice.field_property_history__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__write_date
+#: model:ir.model.fields,field_description:practice.field_change_state__write_date
+#: model:ir.model.fields,field_description:practice.field_model_a__write_date
+#: model:ir.model.fields,field_description:practice.field_owner__write_date
+#: model:ir.model.fields,field_description:practice.field_property_history__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__message_has_error
+#: model:ir.model.fields,field_description:practice.field_model_a__message_has_error
+#: model:ir.model.fields,field_description:practice.field_property_history__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__message_ids
+#: model:ir.model.fields,field_description:practice.field_model_a__message_ids
+#: model:ir.model.fields,field_description:practice.field_property_history__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.property_form_view
+msgid "More Information"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__my_activity_date_deadline
+#: model:ir.model.fields,field_description:practice.field_model_a__my_activity_date_deadline
+#: model:ir.model.fields,field_description:practice.field_property_history__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__name
+#: model:ir.model.fields,field_description:practice.field_model_a__name
+#: model:ir.model.fields,field_description:practice.field_owner__name
+msgid "Name"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_property_history__new_state
+msgid "New State"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__activity_calendar_event_id
+#: model:ir.model.fields,field_description:practice.field_model_a__activity_calendar_event_id
+#: model:ir.model.fields,field_description:practice.field_property_history__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__activity_date_deadline
+#: model:ir.model.fields,field_description:practice.field_model_a__activity_date_deadline
+#: model:ir.model.fields,field_description:practice.field_property_history__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__activity_summary
+#: model:ir.model.fields,field_description:practice.field_model_a__activity_summary
+#: model:ir.model.fields,field_description:practice.field_property_history__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__activity_type_id
+#: model:ir.model.fields,field_description:practice.field_model_a__activity_type_id
+#: model:ir.model.fields,field_description:practice.field_property_history__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__no
+msgid "No"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_model_a__number_of_beds
+msgid "Number Of Beds"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__message_needaction_counter
+#: model:ir.model.fields,field_description:practice.field_model_a__message_needaction_counter
+#: model:ir.model.fields,field_description:practice.field_property_history__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__message_has_error_counter
+#: model:ir.model.fields,field_description:practice.field_model_a__message_has_error_counter
+#: model:ir.model.fields,field_description:practice.field_property_history__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,help:practice.field_building__message_needaction_counter
+#: model:ir.model.fields,help:practice.field_model_a__message_needaction_counter
+#: model:ir.model.fields,help:practice.field_property_history__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,help:practice.field_building__message_has_error_counter
+#: model:ir.model.fields,help:practice.field_model_a__message_has_error_counter
+#: model:ir.model.fields,help:practice.field_property_history__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields.selection,name:practice.selection__model_a__garden_oreientation__o2
+msgid "O2"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_property_history__old_state
+msgid "Old State"
+msgstr ""
+
+#. module: practice
+#: model:ir.actions.act_window,name:practice.owner_action
+#: model:ir.model.fields,field_description:practice.field_model_a__owner_id
+msgid "Owner"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_owner__part_ids
+msgid "Part"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields.selection,name:practice.selection__change_state__state__pending
+#: model:ir.model.fields.selection,name:practice.selection__model_a__state__pending
+#: model_terms:ir.ui.view,arch_db:practice.property_form_view
+msgid "Pending"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_model_a__owner_phone
+#: model:ir.model.fields,field_description:practice.field_owner__phone
+msgid "Phone"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_res_partner__price
+#: model:ir.model.fields,field_description:practice.field_res_users__price
+msgid "Price"
+msgstr ""
+
+#. module: practice
+#: model:ir.actions.act_window,name:practice.property_action
+#: model:ir.model,name:practice.model_model_a
+#: model:ir.model.fields,field_description:practice.field_change_state__property_id
+#: model:ir.model.fields,field_description:practice.field_property_history__property_id
+#: model:ir.model.fields,field_description:practice.field_res_partner__property_id
+#: model:ir.model.fields,field_description:practice.field_res_users__property_id
+#: model:ir.model.fields,field_description:practice.field_sale_order__property_id
+msgid "Property"
+msgstr ""
+
+#. module: practice
+#: model:ir.actions.act_window,name:practice.property_history_action
+msgid "Property History"
+msgstr ""
+
+#. module: practice
+#: model:ir.ui.menu,name:practice.property_history
+msgid "Property History "
+msgstr ""
+
+#. module: practice
+#: model:ir.actions.report,name:practice.property_report
+msgid "Property Report"
+msgstr ""
+
+#. module: practice
+#: model:ir.model,name:practice.model_property_history
+msgid "Property history"
+msgstr ""
+
+#. module: practice
+#: model:ir.ui.menu,name:practice.property
+msgid "Property offline "
+msgstr "الشقق"
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.property_report_template
+msgid "Property report"
+msgstr "تقرير للشقق"
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_change_state__reason
+#: model:ir.model.fields,field_description:practice.field_property_history__reason
+msgid "Reason"
+msgstr "السبب"
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_model_a__ref
+msgid "Ref"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__activity_user_id
+#: model:ir.model.fields,field_description:practice.field_model_a__activity_user_id
+#: model:ir.model.fields,field_description:practice.field_property_history__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__message_has_sms_error
+#: model:ir.model.fields,field_description:practice.field_model_a__message_has_sms_error
+#: model:ir.model.fields,field_description:practice.field_property_history__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: practice
+#: model:ir.model,name:practice.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_model_a__selling_price
+msgid "Selling Price"
+msgstr "مبلغ الشراء"
+
+#. module: practice
+#: model:ir.model.fields.selection,name:practice.selection__model_a__state__sold
+#: model_terms:ir.ui.view,arch_db:practice.property_form_view
+msgid "Sold"
+msgstr "متباعه"
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_change_state__state
+#: model:ir.model.fields,field_description:practice.field_model_a__state
+msgid "State"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,help:practice.field_building__activity_state
+#: model:ir.model.fields,help:practice.field_model_a__activity_state
+#: model:ir.model.fields,help:practice.field_property_history__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: practice
+#: model:ir.model.constraint,message:practice.constraint_model_a_unique_name_must
+msgid "This name must be unique"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,help:practice.field_building__activity_exception_decoration
+#: model:ir.model.fields,help:practice.field_model_a__activity_exception_decoration
+#: model:ir.model.fields,help:practice.field_property_history__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_property_history__user_id
+msgid "User"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,field_description:practice.field_building__website_message_ids
+#: model:ir.model.fields,field_description:practice.field_model_a__website_message_ids
+#: model:ir.model.fields,field_description:practice.field_property_history__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: practice
+#: model:ir.model.fields,help:practice.field_building__website_message_ids
+#: model:ir.model.fields,help:practice.field_model_a__website_message_ids
+#: model:ir.model.fields,help:practice.field_property_history__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.property_search_view
+msgid "With Not garden"
+msgstr "بدون حديقه"
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.property_search_view
+msgid "With garden"
+msgstr "بالحديقة"
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.change_state_view_form
+msgid "cancel"
+msgstr "الالغاء"
+
+#. module: practice
+#: model:ir.model,name:practice.model_change_state
+msgid "change.state"
+msgstr "تغير الحالة"
+
+#. module: practice
+#: model:ir.ui.menu,name:practice.base_menu_configration
+msgid "configuration"
+msgstr "زيادة"
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.change_state_view_form
+msgid "confirm"
+msgstr "تاكيد"
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.owner_form_view
+msgid "flats"
+msgstr "شقق"
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.building_form_view
+#: model_terms:ir.ui.view,arch_db:practice.property_form_view
+#: model_terms:ir.ui.view,arch_db:practice.property_history_form_view
+msgid "info"
+msgstr "معلومات"
+
+#. module: practice
+#: model_terms:ir.ui.view,arch_db:practice.owner_form_view
+msgid "info about owner"
+msgstr "معلومات عن المالك"
+
+#. module: practice
+#: model:ir.model,name:practice.model_owner
+#: model:ir.ui.menu,name:practice.owner
+msgid "owner"
+msgstr "المالك"
+
+#. module: practice
+#: model:ir.ui.menu,name:practice.base_menu_properties
+msgid "properties"
+msgstr "الشقق"

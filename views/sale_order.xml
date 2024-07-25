@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+<record id="inherit_sale" model="ir.ui.view">
+        <field name="name">inherit.sale.order</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+<!--            <xpath expr="//group//group[@name='order_details']" position="inside">-->
+<!--                <field name="property_id"/>-->
+<!--            </xpath>-->
+            <field name="partner_id" position="after">
+                <field name="property_id"/>
+            </field>
+<!--&lt;!&ndash;            <xpath expr="//group//group[4]//field[@name='day_open']" position="attributes">&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <attribute name="required">1</attribute>&ndash;&gt;-->
+<!--&lt;!&ndash;            </xpath>&ndash;&gt;-->
+        </field>
+        </record>
+    </data>
+</odoo>

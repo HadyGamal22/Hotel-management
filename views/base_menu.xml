@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <menuitem name="Base" id="base_menu"
+        web_icon="practice,static/icon.png"
+        />
+        <menuitem name="properties" id="base_menu_properties" parent="base_menu"/>
+        <menuitem name="configuration" id="base_menu_configration" parent="base_menu" />
+    </data>
+</odoo>
